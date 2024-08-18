@@ -1,0 +1,41 @@
+{
+	"name": "@beyond-js/styles",
+	"version": "0.1.9",
+	"description": "A BeyondJS module for managing and processing legacy and modern styles, supporting dependency handling, HMR, and style registration.",
+	"license": "MIT",
+	"modules": {
+		"path": "./"
+	},
+	"static": {
+		"includes": "vendor"
+	},
+	"deployment": {
+		"distributions": [
+			{
+				"name": "web",
+				"platform": "web",
+				"maps": "external",
+				"ports": {
+					"bundles": 9102
+				},
+				"ts": {
+					"compiler": "tsc"
+				}
+			},
+			{
+				"name": "node",
+				"platform": "node",
+				"ports": {
+					"bundles": 9103
+				},
+				"ts": {
+					"compiler": "tsc"
+				}
+			}
+		]
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "^18.11.18"
+	}
+}

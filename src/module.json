@@ -1,0 +1,6 @@
+{
+	"name": "main",
+	"platforms": ["web", "android", "ios", "node", "ssr"],
+	"bundle": "ts",
+	"files": "*"
+}
