@@ -1,4 +1,4 @@
-import { Events } from '@beyond-js/kernel/core';
+import { Events } from '@beyond-js/events/events';
 import { instances as bundles, Bundle } from '@beyond-js/kernel/bundle';
 
 export /*bundle*/
