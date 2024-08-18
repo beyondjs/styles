@@ -1,13 +1,10 @@
 {
 	"name": "@beyond-js/styles",
-	"version": "0.1.9",
+	"version": "1.0.0",
 	"description": "A BeyondJS module for managing and processing legacy and modern styles, supporting dependency handling, HMR, and style registration.",
 	"license": "MIT",
 	"modules": {
 		"path": "./"
-	},
-	"static": {
-		"includes": "vendor"
 	},
 	"deployment": {
 		"distributions": [
