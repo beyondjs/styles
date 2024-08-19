@@ -27,13 +27,7 @@ jobs:
               run: npm install
 
             - name: Build package
-              run: beyond build --pkg=pragmate-ui --distribution=npm --logs
-
-            - name: List build .beyond contents
-              run: ls -la src/.beyond
-
-            - name: List build directory contents
-              run: ls -la src/.beyond/builds/npm/code
+              run: beyond build --pkg=@beyond-js/styles --distribution=npm --logs
 
             - name: Publish to NPM
               working-directory: src/.beyond/builds/npm/code
